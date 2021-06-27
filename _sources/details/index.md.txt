@@ -74,9 +74,7 @@ caption: An example (annotated by segment) with its metadata such as the source,
 
 ### Annotated Sequence (by token)
 
-```{admonition} How is this generated?
-
-To described more...
+```{important} This is derived from the above using regular expression.
 ```
 
 ```{code-block} json
@@ -88,106 +86,31 @@ caption: An example (annotated by token) with its metadata such as the source, d
     "doc_type": "article",
     "source": "crossref",
     "data": [
-        [
-            "Watson,",
-            "author"
-        ],
-        [
-            "J.",
-            "author"
-        ],
-        [
-            "D.,",
-            "author"
-        ],
-        [
-            "&",
-            "author"
-        ],
-        [
-            "Crick,",
-            "author"
-        ],
-        [
-            "F.",
-            "author"
-        ],
-        [
-            "H.",
-            "author"
-        ],
-        [
-            "C.",
-            "author"
-        ],
-        [
-            "(1953).",
-            "year"
-        ],
-        [
-            "Molecular",
-            "title"
-        ],
-        [
-            "structure",
-            "title"
-        ],
-        [
-            "of",
-            "title"
-        ],
-        [
-            "nucleic",
-            "title"
-        ],
-        [
-            "acids:",
-            "title"
-        ],
-        [
-            "A",
-            "title"
-        ],
-        [
-            "structure",
-            "title"
-        ],
-        [
-            "for",
-            "title"
-        ],
-        [
-            "deoxyribose",
-            "title"
-        ],
-        [
-            "nucleic",
-            "title"
-        ],
-        [
-            "acid.",
-            "title"
-        ],
-        [
-            "Nature,",
-            "container-title"
-        ],
-        [
-            "171",
-            "volume"
-        ],
-        [
-            "(4356),",
-            "issue"
-        ],
-        [
-            "737\\u2013738.",
-            "page"
-        ],
-        [
-            "https://doi.org/10.1038/171737a0",
-            "DOI"
-        ]
+        ["Watson,", "author"],
+        ["J.", "author"],
+        ["D.,", "author"],
+        ["&", "author"],
+        ["Crick,", "author"],
+        ["F.", "author"],
+        ["H.", "author"],
+        ["C.", "author"],
+        ["(1953).", "year"],
+        ["Molecular", "title"],
+        ["structure", "title"],
+        ["of", "title"],
+        ["nucleic", "title"],
+        ["acids:", "title"],
+        ["A", "title"],
+        ["structure", "title"],
+        ["for", "title"],
+        ["deoxyribose", "title"],
+        ["nucleic", "title"],
+        ["acid.", "title"],
+        ["Nature,", "container-title"],
+        ["171", "volume"],
+        ["(4356),", "issue"],
+        ["737\\u2013738.", "page"],
+        ["https://doi.org/10.1038/171737a0", "DOI"]
     ]
 }
 ```

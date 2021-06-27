@@ -4,16 +4,15 @@ The dataset is hosted by [{abbr}`WING (Web Information Retrieval Natural Languag
 
 ## Annotated (by segment) Sequences Dataset
 
-```{admonition} Useful resource
+```{note}
 For more information on how the data is structured, refer to {ref}`Details/Data Format/Annotated Sequence (by segment) <annotated_sequence_by_segment>`.
-
 ```
 
 Links to download the files go here.
 
 ## Annotated (by token) Sequences Dataset
 
-```{admonition} Useful resource
+```{note}
 For more information on how the data is structured, refer to {ref}`Details/Data Format/Annotated Sequence (by token) <annotated_sequence_by_token>`.
 ```
 
