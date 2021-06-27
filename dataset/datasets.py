@@ -25,7 +25,7 @@ class TextLineDataset:
     Attributes:
         root (Union[Path, str]): The path of the text file
         encoding (str): The encoding of the text file
-        lazy_load (bool): Whether to lazy load the line when :py:meth:`__getitem__` is called, otherwise use :py:mod:`linecache  <https://docs.python.org/3/library/linecache.html>`
+        lazy_load (bool): Whether to lazy load the line when :py:meth:`__getitem__` is called, otherwise use :py:mod:`linecache`
         deserializer (Callable[[str], Sequence[Tuple[str, str]]]]): A function to deserialise each line
     """
     def __init__(self, file_path: Union[Path, str], encoding: str = 'utf-8', lazy_load: bool = False,
