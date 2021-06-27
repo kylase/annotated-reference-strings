@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reference Strings Dataset &#8212; Reference Strings Dataset  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="System Requirements" href="usage/requirements.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="reference-strings-dataset">
+<h1>Reference Strings Dataset<a class="headerlink" href="#reference-strings-dataset" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="quick-introduction">
+<h2>Quick Introduction<a class="headerlink" href="#quick-introduction" title="Permalink to this headline">¶</a></h2>
+<p><em>Reference Strings Dataset</em> is a collection of synthetically generated bibliographies that comes with annotations on each token. For example, a citation rendered in <em>APA</em> style:</p>
+<div class="literal-block-wrapper docutils container" id="plain-text-render">
+<div class="code-block-caption"><span class="caption-text">Plain text render of a citation</span><a class="headerlink" href="#plain-text-render" title="Permalink to this code">¶</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Watson, J. D., &amp; Crick, F. H. C. (1953). Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid. Nature, 171(4356), 737–738. https://doi.org/10.1038/171737a0
+</pre></div>
+</div>
+</div>
+<p>The corresponding annotated form encloses contigious segment of tokens with <abbr title="Extensible Markup Language">XML</abbr>-like tags:</p>
+<div class="literal-block-wrapper docutils container" id="plain-text-render-with-annotation">
+<div class="code-block-caption"><span class="caption-text">Plain text render of a citation with annotation</span><a class="headerlink" href="#plain-text-render-with-annotation" title="Permalink to this code">¶</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;author&gt;Watson, J. D., &amp; Crick, F. H. C.&lt;/author&gt; &lt;year&gt;(1953).&lt;/year&gt; &lt;title&gt;Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid.&lt;/title&gt; &lt;container-title&gt;Nature,&lt;/container-title&gt; &lt;volume&gt;171&lt;/volume&gt; &lt;issue&gt;(4356),&lt;/issue&gt; &lt;page&gt;737–738.&lt;/page&gt; &lt;DOI&gt;https://doi.org/10.1038/171737a0&lt;/DOI&gt;
+</pre></div>
+</div>
+</div>
+<p>These XML-like tags are based on <abbr title="Citation Style Language">CSL</abbr> <a class="reference external" href="https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables">Variables</a>.</p>
+<p>For more information about the method which the dataset is synthesized and the data format, read <a class="reference internal" href="details/index.html"><span class="doc">Details</span></a>.</p>
+<div class="section" id="use-cases">
+<h3>Use Cases<a class="headerlink" href="#use-cases" title="Permalink to this headline">¶</a></h3>
+<dl class="simple">
+<dt>Sequence tagging/labeling</dt><dd><p>Assignment of categorical label to each member of the sequence.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="how-to-obtain-the-dataset">
+<h2>How to obtain the dataset<a class="headerlink" href="#how-to-obtain-the-dataset" title="Permalink to this headline">¶</a></h2>
+<p>Visit the <a class="reference internal" href="obtaining-data/downloads.html"><span class="doc">Downloads</span></a> page for instructions.</p>
+</div>
+<div class="section" id="citing">
+<h2>Citing<a class="headerlink" href="#citing" title="Permalink to this headline">¶</a></h2>
+<p>This dataset is part of a Master project in NUS.</p>
+<p>If you are using the dataset for scientific work, please cite the following:</p>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@techreport</span><span class="p">{</span><span class="nl">kee2021</span><span class="p">,</span>
+    <span class="na">author</span> <span class="p">=</span> <span class="s">{Yuan Chuan Kee}</span><span class="p">,</span>
+    <span class="na">title</span> <span class="p">=</span> <span class="s">{Synthesis of a large dataset of annotated reference strings for the study of active learning on semi-structured sequences}</span><span class="p">,</span>
+    <span class="na">institution</span> <span class="p">=</span> <span class="s">{National University of Singapore}</span><span class="p">,</span>
+    <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="content">
+<h2>Content<a class="headerlink" href="#content" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="usage/requirements.html">System Requirements</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage/requirements.html#python-modules">Python Modules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="details/index.html">Details</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="details/index.html#data-sources">Data Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="details/index.html#csl-styles">CSL Styles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="details/index.html#bibtex-entry-types">BibTeX Entry Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="details/index.html#data-format">Data Format</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="obtaining-data/downloads.html">Downloads</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="obtaining-data/downloads.html#annotated-by-segment-sequences-dataset">Annotated (by segment) Sequences Dataset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="obtaining-data/downloads.html#annotated-by-token-sequences-dataset">Annotated (by token) Sequences Dataset</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="references/index.html">References</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="references/index.html#csl">CSL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="references/index.html#datasets">Datasets</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Reference Strings Dataset</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="usage/requirements.html">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="details/index.html">Details</a></li>
+<li class="toctree-l1"><a class="reference internal" href="obtaining-data/downloads.html">Downloads</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references/index.html">References</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="usage/requirements.html" title="next chapter">System Requirements</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Yuan Chuan Kee.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
