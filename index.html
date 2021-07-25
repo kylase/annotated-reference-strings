@@ -131,18 +131,18 @@
 <div class="section" id="quick-introduction">
 <h2>Quick Introduction<a class="headerlink" href="#quick-introduction" title="Permalink to this headline">¶</a></h2>
 <p><em>Reference Strings Dataset</em> is a collection of synthetically generated bibliographies that comes with annotations on each token. For example, a citation rendered in <em>APA</em> style:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>:caption: Plain text render of a citation
-:name: plain-text-render
-
-Watson, J. D., &amp; Crick, F. H. C. (1953). Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid. Nature, 171(4356), 737–738. https://doi.org/10.1038/171737a0
+<div class="literal-block-wrapper docutils container" id="plain-text-render">
+<div class="code-block-caption"><span class="caption-text">Plain text render of a citation</span><a class="headerlink" href="#plain-text-render" title="Permalink to this code">¶</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Watson, J. D., &amp; Crick, F. H. C. (1953). Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid. Nature, 171(4356), 737–738. https://doi.org/10.1038/171737a0
 </pre></div>
 </div>
+</div>
 <p>The corresponding annotated form encloses contigious segment of tokens with <abbr title="Extensible Markup Language">XML</abbr>-like tags:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>:caption: Plain text render of a citation with annotation
-:name: plain-text-render-with-annotation
-
-&lt;author&gt;Watson, J. D., &amp; Crick, F. H. C.&lt;/author&gt; &lt;year&gt;(1953).&lt;/year&gt; &lt;title&gt;Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid.&lt;/title&gt; &lt;container-title&gt;Nature,&lt;/container-title&gt; &lt;volume&gt;171&lt;/volume&gt; &lt;issue&gt;(4356),&lt;/issue&gt; &lt;page&gt;737–738.&lt;/page&gt; &lt;DOI&gt;https://doi.org/10.1038/171737a0&lt;/DOI&gt;
+<div class="literal-block-wrapper docutils container" id="plain-text-render-with-annotation">
+<div class="code-block-caption"><span class="caption-text">Plain text render of a citation with annotation</span><a class="headerlink" href="#plain-text-render-with-annotation" title="Permalink to this code">¶</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;author&gt;Watson, J. D., &amp; Crick, F. H. C.&lt;/author&gt; &lt;year&gt;(1953).&lt;/year&gt; &lt;title&gt;Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid.&lt;/title&gt; &lt;container-title&gt;Nature,&lt;/container-title&gt; &lt;volume&gt;171&lt;/volume&gt; &lt;issue&gt;(4356),&lt;/issue&gt; &lt;page&gt;737–738.&lt;/page&gt; &lt;DOI&gt;https://doi.org/10.1038/171737a0&lt;/DOI&gt;
 </pre></div>
+</div>
 </div>
 <p>These XML-like tags are based on <abbr title="Citation Style Language">CSL</abbr> <a class="reference external" href="https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables">Variables</a>.</p>
 <p>For more information about the method which the dataset is synthesized and the data format, read <a class="reference internal" href="details/index.html"><span class="doc">Details</span></a>.</p>

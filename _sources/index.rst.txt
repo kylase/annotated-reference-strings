@@ -7,7 +7,6 @@ Quick Introduction
 *Reference Strings Dataset* is a collection of synthetically generated bibliographies that comes with annotations on each token. For example, a citation rendered in *APA* style:
 
 .. code-block::
-
    :caption: Plain text render of a citation
    :name: plain-text-render
 
@@ -16,7 +15,6 @@ Quick Introduction
 The corresponding annotated form encloses contigious segment of tokens with :abbr:`XML (Extensible Markup Language)`-like tags:
 
 .. code-block::
-
    :caption: Plain text render of a citation with annotation
    :name: plain-text-render-with-annotation
 
