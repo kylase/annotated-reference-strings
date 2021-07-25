@@ -126,13 +126,13 @@
         <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
-        <div class="tex2jax_ignore mathjax_ignore section" id="details">
+        <div class="section" id="details">
 <h1>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h1>
 <p>This page describe how the dataset is derived and the description of it.</p>
 <div class="section" id="data-sources">
 <h2>Data Sources<a class="headerlink" href="#data-sources" title="Permalink to this headline">¶</a></h2>
 <p>The citations are obtained from the following sources:</p>
-<ol class="simple">
+<ol class="arabic simple">
 <li><p>CrossRef via <abbr title="Document Object Identifier">DOI</abbr> obtained from <a class="reference external" href="https://www.microsoft.com/en-us/research/project/open-academic-graph/">Open Academic Graph</a></p></li>
 <li><p>JSTOR Sample Dataset (not accessible anymore)</p></li>
 <li><p><a class="reference external" href="https://www.nlm.nih.gov/databases/download/pubmed_medline.html">PubMed (2019 Baseline)</a></p></li>
@@ -141,9 +141,14 @@
 <div class="section" id="csl-styles">
 <h2>CSL Styles<a class="headerlink" href="#csl-styles" title="Permalink to this headline">¶</a></h2>
 <p>In total, 17 styles have been employed. The table below summarises the number of reference strings available in the dataset for each style.</p>
-<div class="table-wrapper"><table class="colwidths-auto docutils align-default">
+<div class="table-wrapper"><table class="colwidths-given docutils align-default" id="id1">
+<caption><span class="caption-text">Number of Strings By CSL Style</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 38%"/>
+<col style="width: 62%"/>
+</colgroup>
 <thead>
-<tr class="row-odd"><th class="head"><p>Style</p></th>
+<tr class="row-odd"><th class="head"><p>CSL Style</p></th>
 <th class="head"><p>Number of Reference Strings</p></th>
 </tr>
 </thead>
@@ -202,7 +207,12 @@
 <div class="section" id="bibtex-entry-types">
 <h2>BibTeX Entry Types<a class="headerlink" href="#bibtex-entry-types" title="Permalink to this headline">¶</a></h2>
 <p>The table below summarises the number of reference strings available for each BibTeX entry type.</p>
-<div class="table-wrapper"><table class="colwidths-auto docutils align-default">
+<div class="table-wrapper"><table class="colwidths-given docutils align-default" id="id2">
+<caption><span class="caption-text">Number of Strings By BibTeX Entry Types</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 38%"/>
+<col style="width: 62%"/>
+</colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><p>Entry Type</p></th>
 <th class="head"><p>Number of Reference Strings</p></th>
@@ -238,65 +248,21 @@
 </div>
 <div class="section" id="data-format">
 <h2>Data Format<a class="headerlink" href="#data-format" title="Permalink to this headline">¶</a></h2>
-<p>There are 2 format which the dataset is stored as: 1) <a class="reference external" href="#annotated-sequence-by-segment">annotated sequences (by segment) in XML-like tags</a> and 2) <a class="reference external" href="#annotated-sequence-by-token">annotated sequences (by token)</a>.</p>
 <p>The data are stored as JSON lines in each file. Each line of the files represents a citation rendered in a specified CSL style with its corresponding annotated sequence.</p>
-<div class="section" id="annotated-sequence-by-segment">
-<span id="id1"></span><h3>Annotated Sequence (by segment)<a class="headerlink" href="#annotated-sequence-by-segment" title="Permalink to this headline">¶</a></h3>
 <div class="literal-block-wrapper docutils container" id="id3">
 <div class="code-block-caption"><span class="caption-text">An example (annotated by segment) with its metadata such as the source, document type and the style the citation is rendered</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nt">"style"</span><span class="p">:</span> <span class="s2">"apa"</span><span class="p">,</span>
-    <span class="nt">"doc_type"</span><span class="p">:</span> <span class="s2">"article"</span><span class="p">,</span>
-    <span class="nt">"source"</span><span class="p">:</span> <span class="s2">"crossref"</span><span class="p">,</span>
-    <span class="nt">"data"</span><span class="p">:</span> <span class="s2">"&lt;author&gt;Watson, J. D., &amp; Crick, F. H. C.&lt;/author&gt; &lt;year&gt;(1953).&lt;/year&gt; &lt;title&gt;Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid.&lt;/title&gt; &lt;container-title&gt;Nature,&lt;/container-title&gt; &lt;volume&gt;171&lt;/volume&gt; &lt;issue&gt;(4356),&lt;/issue&gt; &lt;page&gt;737\\u2013738.&lt;/page&gt; &lt;DOI&gt;https://doi.org/10.1038/171737a0&lt;/DOI&gt;"</span>
+   <span class="nt">"style"</span><span class="p">:</span> <span class="s2">"apa"</span><span class="p">,</span>
+   <span class="nt">"doc_type"</span><span class="p">:</span> <span class="s2">"article"</span><span class="p">,</span>
+   <span class="nt">"source"</span><span class="p">:</span> <span class="s2">"crossref"</span><span class="p">,</span>
+   <span class="nt">"data"</span><span class="p">:</span> <span class="s2">"&lt;author&gt;Watson, J. D., &amp; Crick, F. H. C.&lt;/author&gt; &lt;year&gt;(1953).&lt;/year&gt; &lt;title&gt;Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid.&lt;/title&gt; &lt;container-title&gt;Nature,&lt;/container-title&gt; &lt;volume&gt;171&lt;/volume&gt; &lt;issue&gt;(4356),&lt;/issue&gt; &lt;page&gt;737\\u2013738.&lt;/page&gt; &lt;DOI&gt;https://doi.org/10.1038/171737a0&lt;/DOI&gt;"</span>
 <span class="p">}</span>
 </pre></div>
 </div>
 </div>
-</div>
-<div class="section" id="annotated-sequence-by-token">
-<span id="id2"></span><h3>Annotated Sequence (by token)<a class="headerlink" href="#annotated-sequence-by-token" title="Permalink to this headline">¶</a></h3>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>This is derived from the above using regular expression.</p>
-</div>
-<div class="literal-block-wrapper docutils container" id="id4">
-<div class="code-block-caption"><span class="caption-text">An example (annotated by token) with its metadata such as the source, document type and the style the citation is rendered</span><a class="headerlink" href="#id4" title="Permalink to this code">¶</a></div>
-<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nt">"style"</span><span class="p">:</span> <span class="s2">"apa"</span><span class="p">,</span>
-    <span class="nt">"doc_type"</span><span class="p">:</span> <span class="s2">"article"</span><span class="p">,</span>
-    <span class="nt">"source"</span><span class="p">:</span> <span class="s2">"crossref"</span><span class="p">,</span>
-    <span class="nt">"data"</span><span class="p">:</span> <span class="p">[</span>
-        <span class="p">[</span><span class="s2">"Watson,"</span><span class="p">,</span> <span class="s2">"author"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"J."</span><span class="p">,</span> <span class="s2">"author"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"D.,"</span><span class="p">,</span> <span class="s2">"author"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"&amp;"</span><span class="p">,</span> <span class="s2">"author"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"Crick,"</span><span class="p">,</span> <span class="s2">"author"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"F."</span><span class="p">,</span> <span class="s2">"author"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"H."</span><span class="p">,</span> <span class="s2">"author"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"C."</span><span class="p">,</span> <span class="s2">"author"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"(1953)."</span><span class="p">,</span> <span class="s2">"year"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"Molecular"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"structure"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"of"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"nucleic"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"acids:"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"A"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"structure"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"for"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"deoxyribose"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"nucleic"</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"acid."</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"Nature,"</span><span class="p">,</span> <span class="s2">"container-title"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"171"</span><span class="p">,</span> <span class="s2">"volume"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"(4356),"</span><span class="p">,</span> <span class="s2">"issue"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"737\\u2013738."</span><span class="p">,</span> <span class="s2">"page"</span><span class="p">],</span>
-        <span class="p">[</span><span class="s2">"https://doi.org/10.1038/171737a0"</span><span class="p">,</span> <span class="s2">"DOI"</span><span class="p">]</span>
-    <span class="p">]</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div>
+<p>Not all tokens are enclosed within the tags. These should be labelled as <strong>O</strong> (according to tagging scheme).</p>
 </div>
 </div>
 </div>
@@ -335,7 +301,7 @@
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="../_sources/details/index.md.txt"
+            <a class="muted-link" href="../_sources/details/index.rst.txt"
                rel="nofollow">
               Show Source
             </a>
@@ -359,11 +325,7 @@
 <li><a class="reference internal" href="#data-sources">Data Sources</a></li>
 <li><a class="reference internal" href="#csl-styles">CSL Styles</a></li>
 <li><a class="reference internal" href="#bibtex-entry-types">BibTeX Entry Types</a></li>
-<li><a class="reference internal" href="#data-format">Data Format</a><ul>
-<li><a class="reference internal" href="#annotated-sequence-by-segment">Annotated Sequence (by segment)</a></li>
-<li><a class="reference internal" href="#annotated-sequence-by-token">Annotated Sequence (by token)</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#data-format">Data Format</a></li>
 </ul>
 </li>
 </ul>
