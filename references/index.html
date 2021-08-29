@@ -189,7 +189,7 @@
 <dt class="sig sig-object py" id="dataset.csl.Variable">
 <em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">dataset.csl.</span></span><span class="sig-name descname"><span class="pre">Variable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#dataset.csl.Variable" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
-<p>A enumeration of <a class="reference external" href="https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables">CSL 1.0.1 variables</a>.</p>
+<p>An enumeration of <a class="reference external" href="https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables">CSL 1.0.1 variables</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><em>other</em> is the only non-standard value and its intention is to assign to tokens that are outside the segments enclosed by the tags</p>
@@ -295,9 +295,9 @@
 <dd class="field-odd"><p><strong>s</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – the annotated string to be parsed</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><p>a sequence of tuples; the first element of the tuple is the token and the second element is the label</p>
-<p>If the token is not enclosed by any tag, it will be labelled as <cite>other</cite></p>
-<p>If the token is nested by more than 1 tag, it will be labelled as</p>
+<dd class="field-even"><p><p>A sequence of tuples; the first element of the tuple is the token and the second element is the label.</p>
+<p>If the token is not enclosed by any tag, it will be labelled as <strong>other</strong>.</p>
+<p>If the token is nested by more than 1 tag, it will be labelled as with period adjoining the labels in hierarchical manner, e.g. <strong>accessed.year</strong></p>
 </p>
 </dd>
 <dt class="field-odd">Return type</dt>
@@ -310,7 +310,7 @@
 <dt class="sig sig-object py" id="dataset.parsers.IOBTag">
 <em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">dataset.parsers.</span></span><span class="sig-name descname"><span class="pre">IOBTag</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#dataset.parsers.IOBTag" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
-<p>An enumeration.</p>
+<p>An enumeration of <a class="reference external" href="https://en.wikipedia.org/wiki/Inside%E2%80%93outside%E2%80%93beginning_(tagging)">IOB tags</a></p>
 </dd></dl>
 </div>
 </div>
