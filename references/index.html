@@ -270,9 +270,47 @@
 <div class="section" id="module-dataset.parsers">
 <span id="parsers"></span><h2>Parsers<a class="headerlink" href="#module-dataset.parsers" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
-<dt class="sig sig-object py" id="dataset.parsers.ParseResult">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">dataset.parsers.</span></span><span class="sig-name descname"><span class="pre">ParseResult</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">token:</span> <span class="pre">str</span></em>, <em class="sig-param"><span class="pre">label:</span> <span class="pre">List[str]</span> <span class="pre">=</span> <span class="pre">&lt;factory&gt;</span></em><span class="sig-paren">)</span><a class="headerlink" href="#dataset.parsers.ParseResult" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="dataset.parsers.CSLParser">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">dataset.parsers.</span></span><span class="sig-name descname"><span class="pre">CSLParser</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">delimiter</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'</span> <span class="pre">'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#dataset.parsers.CSLParser" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>This class allows the parsing of an annotated string that uses XML-like tags
+(based on CSL variables) that enclose delimited token(s) using regular expressions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>delimiter</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – delimiter to be used for tokenization. Defaults to whitespace.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A Parser object</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#dataset.parsers.CSLParser" title="dataset.parsers.CSLParser">CSLParser</a></p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="dataset.parsers.CSLParser.parse">
+<span class="sig-name descname"><span class="pre">parse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">→</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#dataset.parsers.CSLParser.parse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse a given string to a list of tuple</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>s</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – the annotated string to be parsed</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><p>a sequence of tuples; the first element of the tuple is the token and the second element is the label</p>
+<p>If the token is not enclosed by any tag, it will be labelled as <cite>other</cite></p>
+<p>If the token is nested by more than 1 tag, it will be labelled as</p>
+</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>List[Tuple[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a>]]</p>
+</dd>
+</dl>
+</dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt class="sig sig-object py" id="dataset.parsers.IOBTag">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">dataset.parsers.</span></span><span class="sig-name descname"><span class="pre">IOBTag</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#dataset.parsers.IOBTag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
+<p>An enumeration.</p>
 </dd></dl>
 </div>
 </div>

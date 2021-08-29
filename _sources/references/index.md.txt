@@ -21,5 +21,5 @@
 ```{eval-rst}
 .. automodule:: dataset.parsers
     :show-inheritance:
-    :members:
+    :members: IOBTag, CSLParser
 ```
