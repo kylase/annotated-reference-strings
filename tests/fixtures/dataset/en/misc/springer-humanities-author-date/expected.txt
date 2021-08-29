@@ -1,0 +1,9 @@
+<author>Aldashev, Gani.</author> <year>2010.</year> <title>Replication Data.</title> <publisher>Now Publishers.</publisher> <DOI>doi:10.1561/100.00009009_supp.</DOI>
+<author>Ansolabehere, Stephen.</author> <year>2007.</year> <title>Replication Data.</title> <publisher>Now Publishers.</publisher> <DOI>doi:10.1561/100.00000009a.</DOI>
+<author>Atkinson, Matthew D.</author> <year>2009.</year> <title>Replication Data.</title> <publisher>Now Publishers.</publisher> <DOI>doi:10.1561/100.00008056_supp.</DOI>
+<author>Bendor, Jonathan.</author> <year>2008.</year> <title>Replication Data.</title> <publisher>Now Publishers.</publisher> <DOI>doi:10.1561/100.00007028_supp.</DOI>
+<author>Björnson, Emil.</author> <year>2013.</year> <title>Matlab Code.</title> <publisher>Now Publishers.</publisher> <DOI>doi:10.1561/0100000069_supp.</DOI>
+<author>Callander, Steven.</author> <year>2007.</year> <title>Replication Data.</title> <publisher>Now Publishers.</publisher> <DOI>doi:10.1561/100.00000007_supp.zip.</DOI>
+<author>Gilligan, Michael J.</author> <year>2008.</year> <title>Replication Data.</title> <publisher>Now Publishers.</publisher> <DOI>doi:10.1561/100.00007051_supp.</DOI>
+<author>Goodliffe, Jay.</author> <year>2009.</year> <title>Appendix.</title> <publisher>Now Publishers.</publisher> <DOI>doi:10.1561/100.00007061_app.zip.</DOI>
+<author>Herron, Michael C.</author> <year>2007.</year> <title>Replication Data.</title> <publisher>Now Publishers.</publisher> <DOI>doi:10.1561/100.00005039_supp.</DOI>

@@ -1,0 +1,3 @@
+<citation-number>1.</citation-number> <author>MATOS S.</author> <year>2014.</year> <title>Here we don’t speak, here we whistle: designing a language support system for the Silbo Gomero</title>
+<citation-number>2.</citation-number> <author>Heidrich FE, Redondo E.</author> <year>2014.</year> <title>Interacción y Movimiento en el Análisis Visual de Proyectos Arquitectónicos Académicos</title>
+<citation-number>3.</citation-number> <author>Ferrer TN.</author> <year>2014.</year> <title>The Gaud floor tile: memory, trajectory and identity in Catalan industrial design</title>

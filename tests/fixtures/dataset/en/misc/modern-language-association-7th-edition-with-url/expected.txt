@@ -1,0 +1,9 @@
+<author>Aldashev, Gani.</author> <title>“Replication Data.”</title> <year>2010.</year> Web. <URL><https://doi.org/10.1561%2F100.00009009_supp>.</URL>
+<author>Ansolabehere, Stephen.</author> <title>“Replication Data.”</title> <year>2007.</year> Web. <URL><https://doi.org/10.1561%2F100.00000008_supp>.</URL>
+<author>Atkinson, Matthew D.</author> <title>“Replication Data.”</title> <year>2009.</year> Web. <URL><https://doi.org/10.1561%2F100.00008056_supp>.</URL>
+<author>Bendor, Jonathan.</author> <title>“Replication Data.”</title> <year>2008.</year> Web. <URL><https://doi.org/10.1561%2F100.00007028_supp>.</URL>
+<author>Björnson, Emil.</author> <title>“Matlab Code.”</title> <year>2013.</year> Web. <URL><https://doi.org/10.1561%2F0100000069_supp>.</URL>
+<author>Callander, Steven.</author> <title>“Replication Data.”</title> <year>2007.</year> Web. <URL><https://doi.org/10.1561%2F100.00000007_supp.zip>.</URL>
+<author>Gilligan, Michael J.</author> <title>“Replication Data.”</title> <year>2008.</year> Web. <URL><https://doi.org/10.1561%2F100.00007051_supp>.</URL>
+<author>Goodliffe, Jay.</author> <title>“Appendix.”</title> <year>2009.</year> Web. <URL><https://doi.org/10.1561%2F100.00007061_app.zip>.</URL>
+<author>Herron, Michael C.</author> <title>“Replication Data.”</title> <year>2007.</year> Web. <URL><https://doi.org/10.1561%2F100.00005039_supp>.</URL>

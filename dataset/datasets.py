@@ -4,10 +4,9 @@ from linecache import getline
 from pathlib import Path
 from typing import Callable, Optional, Sequence, Tuple, Union
 
-from torch.utils.data import Dataset
 
 
-class TextLineDataset(Dataset):
+class TextLineDataset:
     """Read a text-based file with a given encoding and deserialise each line with deserializer (if provided).
 
     Args:
@@ -45,7 +44,7 @@ class TextLineDataset(Dataset):
             with self.root.open(encoding=self.encoding) as fh:
                 for _ in fh:
                     line = _.strip()
-                    if line != "":
+                    if line and line != "":
                         self._len += 1
 
         self.lazy_load = lazy_load
@@ -67,7 +66,7 @@ class TextLineDataset(Dataset):
     def __getitem__(self, item: int) -> Union[str, Sequence[Tuple[str, str]]]:
         line_no = item + 1
 
-        if line_no >= len(self):
+        if line_no > len(self):
             raise IndexError(f"Index {item} out-of-bound")
 
         if self.deserializer:

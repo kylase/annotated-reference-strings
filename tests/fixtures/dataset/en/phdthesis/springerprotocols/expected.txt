@@ -1,0 +1,5 @@
+<citation-number>1.</citation-number> <author>Johannsen J</author> <title>On Computational Small Steps and Big Steps: Refocusing for Outermost Reduction,</title> <URL>https://doi.org/10.7146%2Faul.8.8</URL>
+<citation-number>2.</citation-number> <author>Nielsen J</author> <title>DR‚Äôs undervisning p√• tv√¶rs af medier. En historisk unders√∏gelse af mediesamspil.,</title> <URL>https://doi.org/10.7146%2Faul.9.9</URL>
+<citation-number>3.</citation-number> <author>Frandsen HM</author> <title>Infrastruktur og erhvervsudvikling i √òstjylland siden 1945,</title> <URL>https://doi.org/10.7146%2Faul.11.10</URL>
+<citation-number>4.</citation-number> <author>Hyldahl P</author> <title>Rectangular shell elements based on the absolute nodal coordinate formulation,</title> <URL>https://doi.org/10.7146%2Faul.97.90</URL>
+<citation-number>5.</citation-number> <author>Isasa JAE</author> <title>Energy-Aware System-Level Design of Cyber-Physical Systems,</title> <URL>https://doi.org/10.7146%2Faul.14.13</URL>

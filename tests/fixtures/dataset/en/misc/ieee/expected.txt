@@ -1,0 +1,9 @@
+<citation-number>[1]</citation-number> <author>G. Aldashev,</author> <title>“Replication Data.”</title> <publisher>Now Publishers,</publisher> <year>2010.</year>
+<citation-number>[2]</citation-number> <author>S. Callander,</author> <title>“Replication Data.”</title> <publisher>Now Publishers,</publisher> <year>2007.</year>
+<citation-number>[3]</citation-number> <author>E. Björnson,</author> <title>“Matlab Code.”</title> <publisher>Now Publishers,</publisher> <year>2013.</year>
+<citation-number>[4]</citation-number> <author>S. Ansolabehere,</author> <title>“Replication Data.”</title> <publisher>Now Publishers,</publisher> <year>2007.</year>
+<citation-number>[5]</citation-number> <author>J. Bendor,</author> <title>“Replication Data.”</title> <publisher>Now Publishers,</publisher> <year>2008.</year>
+<citation-number>[6]</citation-number> <author>J. Goodliffe,</author> <title>“Appendix.”</title> <publisher>Now Publishers,</publisher> <year>2009.</year>
+<citation-number>[7]</citation-number> <author>M. J. Gilligan,</author> <title>“Replication Data.”</title> <publisher>Now Publishers,</publisher> <year>2008.</year>
+<citation-number>[8]</citation-number> <author>M. D. Atkinson,</author> <title>“Replication Data.”</title> <publisher>Now Publishers,</publisher> <year>2009.</year>
+<citation-number>[9]</citation-number> <author>M. C. Herron,</author> <title>“Replication Data.”</title> <publisher>Now Publishers,</publisher> <year>2007.</year>

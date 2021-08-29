@@ -1,0 +1,9 @@
+<author>Aldashev, G.,</author> <year>2010.</year> <title>Replication Data.</title>
+<author>Ansolabehere, S.,</author> <year>2007.</year> <title>Replication Data.</title>
+<author>Atkinson, M.D.,</author> <year>2009.</year> <title>Replication Data.</title>
+<author>Bendor, J.,</author> <year>2008.</year> <title>Replication Data.</title>
+<author>Björnson, E.,</author> <year>2013.</year> <title>Matlab Code.</title>
+<author>Callander, S.,</author> <year>2007.</year> <title>Replication Data.</title>
+<author>Gilligan, M.J.,</author> <year>2008.</year> <title>Replication Data.</title>
+<author>Goodliffe, J.,</author> <year>2009.</year> <title>Appendix.</title>
+<author>Herron, M.C.,</author> <year>2007.</year> <title>Replication Data.</title>
