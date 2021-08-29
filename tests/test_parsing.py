@@ -118,3 +118,11 @@ class TestParser:
         result = parser.parse(annotated_string)
 
         assert result == [('Doe', 'author'), ('J.', 'author'), ('(1919)', 'accessed.year'), ('in', 'other'), ('Nature', 'container-title')]
+
+    def test_long_title(self):
+        parser = CSLParser()
+        annotated_string = "<author>Doe J.</author> <accessed><year>(1919)</year></accessed> in <container-title>Nature</container-title> <title>This is a long title.</title>"
+
+        result = parser.parse(annotated_string)
+
+        assert result == [('Doe', 'author'), ('J.', 'author'), ('(1919)', 'accessed.year'), ('in', 'other'), ('Nature', 'container-title'), ('This', 'title'), ('is', 'title'), ('a', 'title'), ('long', 'title'), ('title.', 'title')]
