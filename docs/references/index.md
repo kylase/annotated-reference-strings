@@ -15,3 +15,11 @@
     :show-inheritance:
     :members:
 ```
+
+## Parsers
+
+```{eval-rst}
+.. automodule:: dataset.parsers
+    :show-inheritance:
+    :members:
+```
