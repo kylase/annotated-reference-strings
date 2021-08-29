@@ -1,0 +1,5 @@
+<author>Balnaves, M., ORegan, T., & Goldsmith, B.</author> <year>(2011).</year> <title>Rating the Audience,</title> <publisher>Bloomsbury Publishing PLC.</publisher> <DOI>doi:10.5040/9781849664622</DOI>
+<author>Lyall, C., Bruce, A., Tait, J., & Meagher, L.</author> <year>(2011).</year> <title>Interdisciplinary Research Journeys,</title> <publisher>Bloomsbury Publishing PLC.</publisher> <DOI>doi:10.5040/9781849661782</DOI>
+<title>Families – Beyond the Nuclear Ideal.</title> <year>(2012),</year> <publisher>Bloomsbury Academic.</publisher> <DOI>doi:10.5040/9781780930114</DOI>
+<title>Nations and Citizens in Yugoslavia and the Post-Yugoslav States : One Hundred Years of Citizenship.</title> <year>(2015),</year> <publisher>Bloomsbury Academic.</publisher> <DOI>doi:10.5040/9781474221559</DOI>
+<title>The Public Value of the Humanities.</title> <year>(2011),</year> <publisher>Bloomsbury Academic.</publisher> <DOI>doi:10.5040/9781849662451</DOI>

@@ -1,0 +1,9 @@
+<author>Aldashev, G,</author> <title>‘Replication Data’.</title> <publisher>Now Publishers,</publisher> <year>2010,</year> <URL><https://doi.org/10.1561%2F100.00009009_supp>.</URL>
+<author>Ansolabehere, S,</author> <title>‘Replication Data’.</title> <publisher>Now Publishers,</publisher> <year>2007,</year> <URL><https://doi.org/10.1561%2F100.00000009a>.</URL>
+<author>Atkinson, MD,</author> <title>‘Replication Data’.</title> <publisher>Now Publishers,</publisher> <year>2009,</year> <URL><https://doi.org/10.1561%2F100.00008056_supp>.</URL>
+<author>Bendor, J,</author> <title>‘Replication Data’.</title> <publisher>Now Publishers,</publisher> <year>2008,</year> <URL><https://doi.org/10.1561%2F100.00007028_supp>.</URL>
+<author>Björnson, E,</author> <title>‘Matlab Code’.</title> <publisher>Now Publishers,</publisher> <year>2013,</year> <URL><https://doi.org/10.1561%2F0100000069_supp>.</URL>
+<author>Callander, S,</author> <title>‘Replication Data’.</title> <publisher>Now Publishers,</publisher> <year>2007,</year> <URL><https://doi.org/10.1561%2F100.00000007_supp.zip>.</URL>
+<author>Gilligan, MJ,</author> <title>‘Replication Data’.</title> <publisher>Now Publishers,</publisher> <year>2008,</year> <URL><https://doi.org/10.1561%2F100.00007051_supp>.</URL>
+<author>Goodliffe, J,</author> <title>‘Appendix’.</title> <publisher>Now Publishers,</publisher> <year>2009,</year> <URL><https://doi.org/10.1561%2F100.00007061_app.zip>.</URL>
+<author>Herron, MC,</author> <title>‘Replication Data’.</title> <publisher>Now Publishers,</publisher> <year>2007,</year> <URL><https://doi.org/10.1561%2F100.00005039_supp>.</URL>

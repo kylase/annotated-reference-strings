@@ -1,0 +1,5 @@
+<author>Frandsen, HM,</author> <title>‘Infrastruktur og erhvervsudvikling i Østjylland siden 1945.’</title> <publisher>Aarhus University Library,</publisher> <URL><https://doi.org/10.7146%2Faul.11.10>.</URL>
+<author>Hyldahl, P,</author> <title>‘Rectangular shell elements based on the absolute nodal coordinate formulation.’</title> <publisher>Aarhus University Library,</publisher> <URL><https://doi.org/10.7146%2Faul.97.90>.</URL>
+<author>Isasa, JAE,</author> <title>‘Energy-Aware System-Level Design of Cyber-Physical Systems.’</title> <publisher>Aarhus University Library,</publisher> <URL><https://doi.org/10.7146%2Faul.14.13>.</URL>
+<author>Johannsen, J,</author> <title>‘On Computational Small Steps and Big Steps: Refocusing for Outermost Reduction.’</title> <publisher>Aarhus University Library,</publisher> <URL><https://doi.org/10.7146%2Faul.8.8>.</URL>
+<author>Nielsen, J,</author> <title>‘DR’s undervisning på tværs af medier. En historisk undersøgelse af mediesamspil.’</title> <publisher>Aarhus University Library,</publisher> <URL><https://doi.org/10.7146%2Faul.9.9>.</URL>

@@ -1,0 +1,9 @@
+<citation-number>[1]</citation-number> <author>Ansolabehere S.</author> <title>Replication Data</title> <year>2007.</year> <DOI>doi:10.1561/100.00000009a.</DOI>
+<citation-number>[2]</citation-number> <author>Bendor J.</author> <title>Replication Data</title> <year>2008.</year> <DOI>doi:10.1561/100.00007028_supp.</DOI>
+<citation-number>[3]</citation-number> <author>Atkinson MD.</author> <title>Replication Data</title> <year>2009.</year> <DOI>doi:10.1561/100.00008056_supp.</DOI>
+<citation-number>[4]</citation-number> <author>Herron MC.</author> <title>Replication Data</title> <year>2007.</year> <DOI>doi:10.1561/100.00005039_supp.</DOI>
+<citation-number>[5]</citation-number> <author>Gilligan MJ.</author> <title>Replication Data</title> <year>2008.</year> <DOI>doi:10.1561/100.00007051_supp.</DOI>
+<citation-number>[6]</citation-number> <author>Goodliffe J.</author> <title>Appendix</title> <year>2009.</year> <DOI>doi:10.1561/100.00007061_app.zip.</DOI>
+<citation-number>[7]</citation-number> <author>Aldashev G.</author> <title>Replication Data</title> <year>2010.</year> <DOI>doi:10.1561/100.00009009_supp.</DOI>
+<citation-number>[8]</citation-number> <author>Callander S.</author> <title>Replication Data</title> <year>2007.</year> <DOI>doi:10.1561/100.00000007_supp.zip.</DOI>
+<citation-number>[9]</citation-number> <author>Björnson E.</author> <title>Matlab Code</title> <year>2013.</year> <DOI>doi:10.1561/0100000069_supp.</DOI>

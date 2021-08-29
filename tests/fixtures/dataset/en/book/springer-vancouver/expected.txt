@@ -1,0 +1,5 @@
+<citation-number>1.</citation-number> <year>(2015)</year> <title>Nations and Citizens in Yugoslavia and the Post-Yugoslav States : One Hundred Years of Citizenship.</title> <DOI>doi: 10.5040/9781474221559</DOI>
+<citation-number>2.</citation-number> <year>(2012)</year> <title>Families – Beyond the Nuclear Ideal.</title> <DOI>doi: 10.5040/9781780930114</DOI>
+<citation-number>3.</citation-number> <author>Lyall C, Bruce A, Tait J, Meagher L</author> <year>(2011)</year> <title>Interdisciplinary Research Journeys.</title> <DOI>doi: 10.5040/9781849661782</DOI>
+<citation-number>4.</citation-number> <year>(2011)</year> <title>The Public Value of the Humanities.</title> <DOI>doi: 10.5040/9781849662451</DOI>
+<citation-number>5.</citation-number> <author>Balnaves M, ORegan T, Goldsmith B</author> <year>(2011)</year> <title>Rating the Audience.</title> <DOI>doi: 10.5040/9781849664622</DOI>
