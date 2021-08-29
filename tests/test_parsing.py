@@ -1,7 +1,7 @@
 from typing import List
 
 from dataset.csl import Variable
-from dataset.parsers import CLOSING_TAGS, ENCLOSED_TAGS, OPENING_TAGS, Parser
+from dataset.parsers import CLOSING_TAGS, ENCLOSED_TAGS, OPENING_TAGS, CSLParser
 from hypothesis import given
 from hypothesis.strategies import text
 
@@ -94,11 +94,27 @@ class TestEnclosedTagsRegex:
 
 class TestParser:
     @given(single_flat_tagged_sequence())
-    def test_single_tag(self, sequence: List[str]):
-        parser = Parser()
-        result = parser.parse(sequence)
+    def test_single_tag(self, annotated_string: str):
+        parser = CSLParser()
+        result = parser.parse(annotated_string)
 
         for token, label in result:
             assert token is not None
             assert label is not None
             assert label in set(map(lambda _: _.value, Variable))
+
+    def test_untagged_token_as_other(self):
+        parser = CSLParser()
+        annotated_string = "<author>Doe J.</author> in <year>1919</year>"
+
+        result = parser.parse(annotated_string)
+
+        assert result == [('Doe', 'author'), ('J.', 'author'), ('in', 'other'), ('1919', 'year')]
+
+    def test_untagged_token_as_other_with_preceding_nested_token(self):
+        parser = CSLParser()
+        annotated_string = "<author>Doe J.</author> <accessed><year>(1919)</year></accessed> in <container-title>Nature</container-title>"
+
+        result = parser.parse(annotated_string)
+
+        assert result == [('Doe', 'author'), ('J.', 'author'), ('(1919)', 'accessed.year'), ('in', 'other'), ('Nature', 'container-title')]
