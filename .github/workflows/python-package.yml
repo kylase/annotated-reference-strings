@@ -11,7 +11,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -56,6 +55,7 @@ jobs:
       # Use always() to always run this step to publish test results when there are test failures
       if: ${{ always() }}
   build-docs:
+    needs: build
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
