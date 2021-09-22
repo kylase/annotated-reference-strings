@@ -12,12 +12,12 @@ class TextLineDataset:
     Args:
         file_path (Union[Path, str]): The path of the text file
         encoding (str, optional): The encoding of the file. Defaults to "utf-8".
-        lazy_load (bool, optional): Use lazy loading. Defaults to :py:obj:`False`.
-        deserializer (Callable[[str], Sequence[Tuple[str, str]]]): A callable that takes the line and return a deserialised form. If :py:const:`None`, it will be str
+        lazy_load (bool, optional): Use lazy loading. Defaults to :obj:`False`.
+        deserializer (Callable[[str], Sequence[Tuple[str, str]]]): A callable that takes the line and return a deserialised form. If :obj:`None`, it will be :obj:`str`
 
     Raise:
-        FileNotFoundError: If :py:data:`file_path` does not exist
-        IndexError: If index of the dataset is more than the :py:meth:`len` - 1
+        FileNotFoundError: If :data:`file_path` does not exist
+        IndexError: If index of the dataset is more than the :func:`len` - 1
     
     Return:
         TextLineDataset: A dataset object
@@ -25,7 +25,7 @@ class TextLineDataset:
     Attributes:
         root (Union[Path, str]): The path of the text file
         encoding (str): The encoding of the text file
-        lazy_load (bool): Whether to lazy load the line when :py:meth:`__getitem__` is called, otherwise use :py:mod:`linecache`
+        lazy_load (bool): Whether to lazy load the line when :meth:`__getitem__` is called, otherwise use :mod:`linecache`
         deserializer (Callable[[str], Sequence[Tuple[str, str]]]]): A function to deserialise each line
     """
     def __init__(self, file_path: Union[Path, str], encoding: str = 'utf-8', lazy_load: bool = False,

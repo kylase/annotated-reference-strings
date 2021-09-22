@@ -4,7 +4,7 @@ from enum import Enum, unique
 @unique
 class Variable(Enum):
     """
-    A enumeration of `CSL 1.0.1 variables <https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables>`_.
+    An enumeration of `CSL 1.0.1 variables <https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables>`_.
 
     .. NOTE::
         *other* is the only non-standard value and its intention is to assign to tokens that are outside the segments enclosed by the tags
