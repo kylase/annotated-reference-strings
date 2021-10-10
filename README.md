@@ -10,9 +10,9 @@ For more information on the library and also the dataset, refer to the [document
 
 ## Obtaining the dataset
 
-The dataset is prepared in National University of Singapore (NUS), School of Computing (SoC), [Web Information Retrieval / Natural Language Processing Group](https://wing.comp.nus.edu.sg/) as part of Master project.
+The dataset is prepared in National University of Singapore (NUS), School of Computing (SoC), [Web Information Retrieval / Natural Language Processing Group (WING)](https://wing.comp.nus.edu.sg/) as part of a Master project.
 
-You can obtain the datasets in partial or full in 2 ways as they are bundled in separated files:
+You can obtain the dataset in parts or full in 2 ways as they are bundled in separated files:
 
 - [NUS SoC's Google Drive (Source of truth)](https://drive.google.com/drive/folders/1xtsdzilLMy7PyfWgbhoPIUJ1YwMX9Qaz?usp=sharing)
 - [Hugging Face dataset repository](https://huggingface.co/datasets/yuanchuan/annotated_reference_strings)
