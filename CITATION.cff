@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+- family-names: Kee
+  given-names: "Yuan Chuan"
+title: "Annotated Reference Strings Dataset"
+type: "dataset"
+url: "https://kylase.github.io/annotated_reference_strings/"
+license: MIT
+preferred-citation:
+  authors:
+    - family-names: Kee
+      given-names: "Yuan Chuan"
+  title: "Synthesis of a large dataset of annotated reference strings for developing citation parsers"
+  type: report
+  year: 2021
+  institution:
+    name: "National University of Singapore"
